@@ -1,0 +1,12 @@
+import { cn } from "@/components/ui/cn";
+
+export default function Container({
+  className,
+  children,
+}: {
+  className?: string;
+  children: React.ReactNode;
+}) {
+  return <div className={cn("container", className)}>{children}</div>;
+}
+

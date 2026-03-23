@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+  background-color: #F6F3EA;
+  color: #303854;
+}
+
+::selection {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.container {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+}
+
+/* Evitar overflow horizontal en móvil */
+html, body {
+  overflow-x: hidden;
+}
+
+.grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+}
+
+
+

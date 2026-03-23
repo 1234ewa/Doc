@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True Events Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="#" class="logo">
+            <span class="logo-mark"></span>
+            <span class="logo-text">TRUE</span>
+          </a>
+          <nav class="nav">
+            <a href="#about" class="nav-link">Sobre nosotros</a>
+            <a href="#work" class="nav-link">Nuestro trabajo</a>
+            <a href="#contact" class="nav-link nav-link-cta">Contacto</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="container hero-inner">
+            <div class="hero-copy">
+              <p class="eyebrow">Set builders • Eventos • Retail</p>
+              <h1>
+                Descubre<br />
+                lo posible.
+              </h1>
+              <p class="hero-subtitle">
+                Diseñamos, fabricamos y montamos escenografías a medida para
+                eventos en vivo y experiencias de marca de alto nivel.
+              </p>
+              <div class="hero-actions">
+                <a href="#work" class="btn btn-primary">Ver nuestro trabajo</a>
+                <a href="#contact" class="btn btn-ghost">Hablemos de tu proyecto</a>
+              </div>
+              <p class="hero-tagline">
+                Tu diseño, llevado a la realidad con precisión técnica y acabados
+                premium.
+              </p>
+            </div>
+
+            <div class="hero-media" id="hero-media">
+              <div class="hero-card hero-card-main" data-parallax="hero-main">
+                <div class="hero-card-header">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-amber"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="hero-image-placeholder">
+                  <div class="hero-gradient"></div>
+                  <div class="hero-lines"></div>
+                </div>
+                <div class="hero-card-footer">
+                  <span>Escenografía para eventos en vivo</span>
+                  <span class="pill">Llave en mano</span>
+                </div>
+              </div>
+              <div class="hero-card hero-card-secondary" data-parallax="hero-secondary">
+                <p class="label">Especialistas en:</p>
+                <ul>
+                  <li>Diseño técnico y planificación</li>
+                  <li>Fabricación en taller propio</li>
+                  <li>Montaje en cualquier parte del mundo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section about">
+          <div class="container section-inner">
+            <div class="section-label">Sobre nosotros</div>
+            <div class="section-grid">
+              <div>
+                <h2>Tu partner para entregar experiencias memorables.</h2>
+              </div>
+              <div class="section-text">
+                <p>
+                  TRUE es un equipo especializado en diseño técnico, fabricación y
+                  construcción de escenografía. Trabajamos con agencias, marcas y
+                  estudios creativos para transformar renders y planos en
+                  espacios físicos impactantes.
+                </p>
+                <p>
+                  Desde el prototipo hasta el montaje final, nos encargamos de
+                  cada detalle para que tu evento se ejecute con precisión,
+                  seguridad y una calidad impecable.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="section work">
+          <div class="container section-inner">
+            <div class="section-label">Nuestro trabajo</div>
+            <div class="cards-grid">
+              <article class="work-card" data-tilt-card>
+                <div class="work-image-placeholder gradient-1"></div>
+                <div class="work-card-body">
+                  <h3>Escenarios para lanzamientos de marca</h3>
+                  <p>
+                    Escenografías a medida para presentaciones de producto,
+                    convenciones y shows en vivo.
+                  </p>
+                  <span class="pill">Eventos en vivo</span>
+                </div>
+              </article>
+
+              <article class="work-card" data-tilt-card>
+                <div class="work-image-placeholder gradient-2"></div>
+                <div class="work-card-body">
+                  <h3>Instalaciones de retail de lujo</h3>
+                  <p>
+                    Corners, pop-ups y escaparates que elevan la experiencia de
+                    compra en tiendas premium.
+                  </p>
+                  <span class="pill">Retail</span>
+                </div>
+              </article>
+
+              <article class="work-card" data-tilt-card>
+                <div class="work-image-placeholder gradient-3"></div>
+                <div class="work-card-body">
+                  <h3>Experiencias inmersivas</h3>
+                  <p>
+                    Espacios interactivos para tours, exposiciones y activaciones
+                    experienciales.
+                  </p>
+                  <span class="pill">Instalaciones</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact">
+          <div class="container section-inner contact-inner">
+            <div>
+              <div class="section-label">Contacto</div>
+              <h2>Cuéntanos qué quieres construir.</h2>
+              <p class="section-text">
+                Comparte tu idea, fechas clave y necesidades técnicas. Te
+                responderemos con una propuesta clara y un plan de producción
+                realista.
+              </p>
+            </div>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Nombre</label>
+                  <input id="name" type="text" placeholder="Tu nombre" />
+                </div>
+                <div class="form-field">
+                  <label for="company">Empresa</label>
+                  <input id="company" type="text" placeholder="Agencia / Marca" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="nombre@empresa.com"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="location">Ciudad / País</label>
+                  <input id="location" type="text" placeholder="Dónde será el proyecto" />
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="message">Proyecto</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Cuéntanos fechas, tipo de evento, dimensiones aproximadas..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                Enviar mensaje
+              </button>
+              <p class="form-footnote">
+                Al enviar aceptas que nos pongamos en contacto contigo por email.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="footer-left">
+            <span class="footer-brand">TRUE</span>
+            <span class="footer-copy">©2026</span>
+          </div>
+          <div class="footer-links">
+            <a href="#about">Sobre nosotros</a>
+            <a href="#work">Nuestro trabajo</a>
+            <a href="#contact">Contacto</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+

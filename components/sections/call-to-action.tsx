@@ -39,14 +39,6 @@ export default function CallToAction() {
               >
                 Agendar cita
               </Button>
-              <Button
-                href="#work"
-                variant="outline"
-                size="lg"
-                className="w-full rounded-md border border-[#F6F3EA]/70 bg-transparent text-[#F6F3EA] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#F6F3EA]/10 md:w-auto"
-              >
-                Ver casos
-              </Button>
               <div className="text-xs text-[#F6F3EA]/80 md:text-right">
                 contacto@clinicadeldoctor.example
               </div>

@@ -4,7 +4,6 @@ import Presentacion from "@/components/sections/presentacion";
 import EspecialidadesDetalle from "@/components/sections/especialidades-detalle";
 import About from "@/components/sections/about";
 import Services from "@/components/sections/services";
-import Portfolio from "@/components/sections/portfolio";
 import UbicacionHorarios from "@/components/sections/ubicacion-horarios";
 import CallToAction from "@/components/sections/call-to-action";
 import Footer from "@/components/footer";
@@ -19,7 +18,6 @@ export default function HomePage() {
         <About />
         <Services />
         <EspecialidadesDetalle />
-        <Portfolio />
         <UbicacionHorarios />
         <CallToAction />
       </main>
